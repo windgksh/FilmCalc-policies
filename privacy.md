@@ -41,7 +41,7 @@ Ibou AI(이하 "회사")는 빛수첩 / Light Notebook / ひかり手帖 앱(이
 
 ## 4. 백업
 
-사용자가 설정에서 "백업 내보내기"를 누르면 촬영일기(좌표 포함), 장비, 필름, 프리셋, 설정이 JSON 파일로 만들어지고, 사용자가 고른 위치에 저장됩니다. 첨부 사진은 백업에 포함되지 않습니다. 회사는 이 파일을 받지 않으며, 보관 책임은 사용자에게 있습니다.
+사용자가 설정에서 "백업 내보내기"를 누르면 촬영일기(좌표 포함), 장비, 필름, 프리셋, 설정이 JSON 파일로 만들어지고, 사용자가 고른 위치에 저장됩니다. "사진 포함 백업"을 고르면 일기에 첨부한 사진도 같은 zip 파일에 들어갑니다. 회사는 이 파일을 받지 않으며, 보관 책임은 사용자에게 있습니다.
 
 ## 5. 외부 서비스
 
@@ -83,7 +83,7 @@ Light Notebook (빛수첩 / ひかり手帖) by Ibou AI is an offline app. **Eve
 - **Microphone:** used for the sound meter. No recording is ever saved or sent.
 - **Notifications:** timer completion only.
 - **Photos:** the system file picker is used, so full photo-library access is not requested.
-- **Backup:** "Export backup" writes a JSON file (diaries including coordinates, gear, films, presets, settings; not photos) to a location you choose. The company never receives it.
+- **Backup:** "Export backup" writes a JSON file (diaries including coordinates, gear, films, presets, settings) to a location you choose; "Export backup with photos" adds the attached photos to a zip. The company never receives it.
 - **Purchase:** handled by Apple or Google under their own privacy policies. The company has no access to payment details.
 - **Deletion:** uninstalling the app deletes all its data. The company holds no copy.
 - **Children:** the app is not directed at children under 14 and collects no personal data.
@@ -107,7 +107,7 @@ Ibou AI が提供する ひかり手帖 / Light Notebook / 빛수첩 は、**す
 - **マイク**: 音量計に使用します。録音の保存・送信はしません。
 - **通知**: タイマー終了の通知のみ。
 - **写真**: システムのファイル選択を使うため、写真ライブラリ全体へのアクセス権限は求めません。
-- **バックアップ**: 「バックアップを書き出す」で JSON ファイル(座標を含む日記、機材、フィルム、プリセット、設定。写真は含みません)を利用者が選んだ場所に保存します。会社は受け取りません。
+- **バックアップ**: 「バックアップを書き出す」で JSON ファイル(座標を含む日記、機材、フィルム、プリセット、設定)を利用者が選んだ場所に保存します。「写真を含むバックアップ」を選ぶと添付写真も同じ zip に入ります。会社は受け取りません。
 - **購入**: Apple または Google が各社のプライバシーポリシーに従って処理します。会社は決済情報にアクセスしません。
 - **削除**: アプリを削除するとすべてのデータが削除されます。会社は複製を保持しません。
 - **14歳未満**: 本アプリは14歳未満を対象とせず、個人情報を収集しません。
